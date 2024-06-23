@@ -1,0 +1,22 @@
+{
+  "name": "ijjva",
+  "version": "1.0.0",
+  "description": "Site internet de l'institut du Judo-Ju Jitsu-Taïso de Villeneuve d'ascq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edieval/ijjva.git"
+  },
+  "author": "Emmanuel Dieval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edieval/ijjva/issues"
+  },
+  "homepage": "https://github.com/edieval/ijjva#readme",
+  "dependencies": {
+    "bulma": "^1.0.1"
+  }
+}
