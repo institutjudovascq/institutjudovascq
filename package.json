@@ -16,7 +16,8 @@
     "url": "https://github.com/edieval/ijjva/issues"
   },
   "homepage": "https://github.com/edieval/ijjva#readme",
-  "dependencies": {
-    "bulma": "^1.0.1"
+  "devDependencies": {
+    "bulma": "1.0.2",
+    "prettier": "3.3.2"
   }
 }
