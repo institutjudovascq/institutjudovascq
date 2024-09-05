@@ -894,9 +894,9 @@
             </div>
             <div class="column is-8 is-offset-2">
               <form
-                action="https://formsubmit.co/edieval@msn.com"
-                method="POST"
+                id="contactForm"
               >
+                <input type="hidden" name="_captcha" value="false">
                 <div class="field">
                   <label class="label">Nom</label>
                   <div class="control has-icons-left">
@@ -905,6 +905,7 @@
                       type="text"
                       placeholder="Ex. Martin Dupont"
                       name="Name"
+                      id="name"
                     />
                     <span class="icon is-small is-left">
                       <i class="fas fa-user"></i>
@@ -919,6 +920,7 @@
                       type="email"
                       placeholder="Ex. hello@gmail.com"
                       name="Email"
+                      id="email"
                     />
                     <span class="icon is-small is-left">
                       <i class="fas fa-envelope"></i>
@@ -932,6 +934,7 @@
                       class="textarea"
                       placeholder="Votre message..."
                       name="Message"
+                      id="message"
                     ></textarea>
                   </div>
                 </div>
@@ -941,6 +944,10 @@
                       Envoyer&nbsp;&nbsp;
                       <i class="fas fa-paper-plane"></i>
                     </button>
+                    <span class="icon is-large ">
+                      <i id="spinnerIcon" class="fa-solid fa-spinner fa-spin-pulse fa-xl is-hidden"></i>
+                      <i id="sendIcon" class="fa-solid fa-check fa-xl is-hidden" style="color: #63E6BE;"></i>
+                    </span>
                   </div>
                 </div>
               </form>
